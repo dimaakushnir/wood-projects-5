@@ -886,7 +886,7 @@ body.lock {
 }
 @media (max-width: 992.98px) {
   .tide-keeper-2 .alphawood__content-line-block {
-    height: calc(100% - 12px);
+    height: calc(100% - 13px);
     width: 1.57px;
   }
 }
@@ -1428,13 +1428,18 @@ body.lock {
     top: auto;
     bottom: 0;
     height: calc(100% - 33px);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
   }
 }
 @media (max-width: 500px) {
   .tide-keeper-3 .alphawood__content-line-block {
     left: auto;
     right: 0;
-    height: calc(100% - 31px);
+    height: calc(100% - 28px);
   }
 }
 .tide-keeper-3 .alphawood__content-line.animate__animated {
